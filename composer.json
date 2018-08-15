@@ -1,0 +1,44 @@
+{
+  "name": "refineddigital/page-banners",
+  "description": "Adds multiple banner option to Pages Module",
+  "type": "project",
+  "repositories": [
+      {
+          "type": "path",
+          "url": "../cms",
+          "options": {
+              "symlink": true
+          }
+      }
+  ],
+  "require": {
+    "refineddigital/cms": "dev-master"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matthias Law",
+      "email": "matthias@refineddigital.co.nz"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RefinedDigital\\PageBanners\\": "src/"
+    },
+    "files": [
+        "src/Module/Helpers/helpers.php"
+    ]
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RefinedDigital\\PageBanners\\Module\\Providers\\PageBannerServiceProvider"
+      ],
+      "aliases": {
+      }
+    }
+  }
+}
