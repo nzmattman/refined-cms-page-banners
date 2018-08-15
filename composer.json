@@ -1,5 +1,5 @@
 {
-  "name": "refineddigital/page-banners",
+  "name": "refineddigital/cms-page-banners",
   "description": "Adds multiple banner option to Pages Module",
   "require": {
     "php": "^7.1.3",
