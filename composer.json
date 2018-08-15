@@ -1,14 +1,8 @@
 {
   "name": "refineddigital/page-banners",
   "description": "Adds multiple banner option to Pages Module",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@gitlab.com:refined-cms/core.git"
-    }
-  ],
   "require": {
-    "refineddigital/cms": "dev-master"
+    "refineddigital/cms": "~1.0"
   },
   "license": "MIT",
   "authors": [
