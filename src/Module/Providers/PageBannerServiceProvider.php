@@ -3,7 +3,7 @@
 namespace RefinedDigital\PageBanners\Module\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use RefinedDigital\CMS\Modules\Core\Models\PageAggregate;
+use RefinedDigital\CMS\Modules\Pages\Aggregates\PageAggregate;
 
 class PageBannerServiceProvider extends ServiceProvider
 {
